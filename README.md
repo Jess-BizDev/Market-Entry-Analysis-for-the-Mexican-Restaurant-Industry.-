@@ -2,10 +2,10 @@
 ![Market Entry Roadmap](Github%20Cover%20photo%20for%20restaurant%20analysis.png)
 In this analysis, I utilized Power BI to analyze 1,161 consumer ratings and identified high-ROI investment gaps in San Luis Potosí to support Market Entry Strategy and Investment Risk Mitigation.
 ## Project Objective: To determine the commercial viability and operational blueprint for a new culinary venture in Mexico.
+
 ### 1. Executive Summary
 As a Business Development Manager, I know that entering a new market is one of the highest-risk moves a company can make. The difference between a failed venture and a market leader often comes down to Data-Driven Intelligence.
 This report presents a comprehensive market entry strategy for the culinary sector in Mexico. While traditional investment models often rely on intuition, this study leverages 1,161 individual rating entries to identify a high-probability Product-Market Fit. By analyzing the intersection of consumer behavior (138 unique diners) and competitive supply (130 restaurants), we have identified a specific "Lean" investment model that minimizes operational overhead while maximizing customer satisfaction.
-![Consumer Demographic & Market Performance Analysis](Restaurant%20Rating%20AnalysisPage%201 Github%20Cover%20photo%20for%20restaurant%20analysis.png)
 
 ### 2. Data Cleaning & Integrity
 To ensure the integrity of this investment strategy, I performed the following ETL (Extract, Transform, Load) steps in Power Query:
@@ -16,6 +16,7 @@ Utilized a COUNTROWS function to confirm a foundation of 1,161 individual review
 Established a Star Schema to link consumer demographics to performance ratings, ensuring all interactive visuals are mathematically synchronized.
 #### - Handling Nulls
 Cleaned "Unspecified" entries in budget and transport columns to prevent demographic skewing.
+
 ### 3. Research Questions & Intelligence Gathering
 #### Question 1: What can you learn from the highest rated restaurants? Do consumer preferences have an effect on ratings?
 Establishing a market baseline is the first step in performance benchmarking.
@@ -23,6 +24,9 @@ Establishing a market baseline is the first step in performance benchmarking.
 - Using the DAX measure Average Overall Rating = AVERAGE(Ratings[Overall_Rating]), we identified a market-wide baseline of 1.20 out of 2.00.
 - Our analysis confirms that satisfaction is highly dependent on cuisine alignment. Cuisines like Japanese and Coffee Shop consistently outperform the baseline, proving that investment must follow pre-existing consumer tastes to ensure high ratings.
 - Ratings drop significantly when there is a mismatch between what consumers want and what the restaurant provides. Top-rated venues succeed because they align their service model (e.g., No Smoking Policy) with the specific lifestyle habits of the local demographic.
+
+![Consumer Demographic & Market Performance Analysis](Restaurant%20Rating%20Analysis%20Page%201.png)
+
 #### Question 2: What are the consumer demographics? Does this indicate a bias in the data sample?
 Understanding the "Who" and "Where" is vital for site selection.
 #### The Target
@@ -37,6 +41,9 @@ We compared Cuisine Demand (total preferences) against Cuisine Supply (active co
 - Mexican Cuisine represents the single largest "Blue Ocean" opportunity. It has a massive demand score of 97 but is served by only 28 restaurants.
 #### The Gap
 - This 69-point deficit represents an underserved market segment ready for a new entrant to capture volume.
+
+![Investment Strategy: Mexican Cuisine Opportuinity](Restaurant%20Rating%20Analysis%20Page%202.png)
+
 #### Question 4: If you were to invest in a restaurant, which characteristics would you be looking for?
 A deep dive into the "Strategic Blueprint" of the Top 10 performers revealed a critical duality in the market:
 #### The Lean Discovery
