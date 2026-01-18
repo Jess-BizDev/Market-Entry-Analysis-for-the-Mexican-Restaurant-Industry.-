@@ -1,4 +1,4 @@
-# Strategic-Market-Entry-Analysis-for-the-Mexican-Restaurant-Industry.-
+# Market-Entry-Analysis-for-the-Mexican-Restaurant-Industry.-
 ![Market Entry Roadmap](Github%20Cover%20photo%20for%20restaurant%20analysis.png)
 In this analysis, I utilized Power BI to analyze 1,161 consumer ratings and identified high-ROI investment gaps in San Luis Potosí to support Market Entry Strategy and Investment Risk Mitigation.
 To view the full interactive model, underlying DAX measures, and data transformations:**[Download Power BI Source File(.pbix)](Restaurant_Rating_Data_Analysis.pbix)**
