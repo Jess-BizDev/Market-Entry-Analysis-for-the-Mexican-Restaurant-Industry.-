@@ -5,7 +5,7 @@ To view the full interactive model, underlying DAX measures, and data transforma
 ## Project Objective: To determine the commercial viability and operational blueprint for a new culinary venture in Mexico.
 
 ### 1. Executive Summary
-As a Business Development Manager, I know that entering a new market is one of the highest-risk moves a company can make. The difference between a failed venture and a market leader often comes down to Data-Driven Intelligence.
+As a Business Development Analyst, I know that entering a new market is one of the highest-risk moves a company can make. The difference between a failed venture and a market leader often comes down to Data-Driven Intelligence.
 This report presents a comprehensive market entry strategy for the culinary sector in Mexico. While traditional investment models often rely on intuition, this study leverages 1,161 individual rating entries to identify a high-probability Product-Market Fit. By analyzing the intersection of consumer behavior (138 unique diners) and competitive supply (130 restaurants), we have identified a specific "Lean" investment model that minimizes operational overhead while maximizing customer satisfaction.
 
 ### 2. Data Cleaning & Integrity
